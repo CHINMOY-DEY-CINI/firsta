@@ -195,6 +195,514 @@ margin-left:100px;
 }
 
 
+.place{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.place-info{
+    text-align:center;
+    position: relative;
+    z-index:1;
+    margin-top:90px;
+    width:1320px;
+    padding:90px 0px;
+}
+
+.place-info::before{
+    content:'';
+    position: absolute;
+    height:100%;
+    width:100%;
+    background:linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    z-index:-1;
+    top: 0px;
+    left: 0px;
+    border-radius:10px;
+}
+
+
+
+.place-info span{
+    color:red;
+}
+
+
+.place-info button{
+    border:none;
+    background-color:red;
+    border-radius:10px;
+    padding:10px 15px;
+    text-transform: uppercase;
+    margin-top: 15px;
+    font-weight:bold;
+    color: white;
+}
+
+
+
+.place-info button:hover{
+    background-color:black;
+    color:white;
+    transition:0.5s;
+    transform-origin: top;
+}
+
+
+.place-info h5{
+    font-size:25px;
+    margin:10px 0px;
+    
+}
+
+
+.offer{
+    width:1320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:90px;
+}
+
+
+
+.offer-section{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    width:1320px;
+}
+
+
+.best-offer{
+width:30%;
+}
+
+
+.best-offer h6{
+    color: #F00;
+    margin-left:50px;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal; 
+margin-top:10px;
+}
+
+
+.best-offer h3{
+    color: #070211;
+font-family: Merriweather;
+font-size: 40px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+margin-left:50px;
+margin-top:10px;
+}
+
+
+.best-offer p{
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+width: 393px;
+margin-left:50px;
+margin-top:10px;
+}
+
+
+
+.offer-img img{
+    width:300px;
+    height:auto;
+    border:10px solid red;
+    padding:30px;
+    border-radius:50%;
+}
+
+
+
+.offer-year{
+    width:30%;
+}
+
+
+.offer-year h6{
+    color: #F00;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-top:10px;
+}
+
+
+.offer-year p{
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+width: 393px;
+margin-top:10px;
+}
+
+
+
+
+.holiday-sale{
+    text-align: center;
+    margin-top:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.holiday-sale h6{
+    color: #070211;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; 
+    margin-top:10px;
+}
+
+.holiday-sale h2{
+    font-size:49px;
+    margin-top:10px;
+}
+
+.holiday-sale span{
+    color: red;
+}
+
+.holiday-sale p{
+    width:600px;
+    margin-top:10px;
+}
+
+
+
+.discount{
+    margin-top:150px;
+}
+
+.pic{
+    width: 1320px;
+    position: relative;
+    margin:0px auto;
+}
+
+.one{
+    width:490px;
+    position: absolute;
+    z-index:1;
+    left:200px;
+    top:170px;
+    height:200px;
+}
+
+.two{
+    height:120px;
+    width:1300px;
+    position: absolute;
+    top:10px;
+    margin-top:250px;
+    left:10px;
+}
+
+
+.three{
+    margin-left:900px;
+    width:200px;
+}
+
+
+.four{
+    position: absolute;
+    height:350px;
+    width:300px;
+    right:10px;
+    top:-80px;
+    z-index:-2;
+}
+
+
+
+.portfolio{
+    margin-top:300px;
+    width:1320px;
+}
+
+
+.gift h6{
+    margin-left:50px;
+    color: #F00;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal; 
+}
+
+
+.gift h3{
+    margin-left:50px;
+    color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize; 
+}
+
+
+.gift p{
+    width: 680px;
+    margin-left:50px;
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+}
+
+
+.gift-pic{
+    margin-left:20px;
+    margin-top:30px;
+}
+
+.gift-pic img{
+    height:400px;
+    width:425px;
+    margin-right:5px;
+    margin-bottom:10px;
+}
+
+
+
+.subscribe{
+    width:1320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:100px;
+}
+
+
+.newsletter p{
+color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+width:800px;
+margin-bottom:20px;
+}
+
+
+
+
+
+
+
+.newsletter{
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05); 
+    width:1320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:60px 0px;
+    margin-left:20px;
+}
+
+
+
+.newsletter img{
+    width:100px;
+}
+
+.newsletter h2{
+    color: #070211;
+text-align: center;
+font-family: Merriweather;
+font-size: 40px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize; 
+margin:10px 0px;
+}
+
+
+#email{
+    padding:10px 180px 10px 10px;
+    border:none;
+    border-radius:20px 20px 20px 20px;
+}
+
+#subscribe{
+    padding:10px 20px;
+    border-radius:0px 20px 20px 0px;
+    background-color: red;
+    border: none;
+    color:white;
+    margin-left:-93px;
+}
+
+#subscribe:hover{
+    background-color:black;
+    color:white;
+    transition:0.5s;
+}
+
+.footer{
+    background-color: #070211;
+    padding:50px 90px;
+}
+
+
+.footer-section{
+    margin-bottom:20px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+
+
+
+.footer-left h6{
+    color:white;
+    font-size:15px;
+    line-height:1.8rem;
+}
+
+
+.footer-right{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.footer-right img{
+    width:15px;
+    margin-top:3px;
+}
+
+.footer-right a{
+    margin-left:9px;
+    text-decoration: none;
+    color:white;
+    margin-top:-3px;
+}
+
+
+.footer-icon{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin:20px 0px;
+}
+
+.footer-icon img{
+    width:40px;
+    margin:0px 10px;
+}
+
+
+
+.footer-last{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    color:white;
+    margin-top:20px;
+}
+
+
+.footer-last h6{
+    font-size:15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
